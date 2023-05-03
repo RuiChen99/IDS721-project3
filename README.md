@@ -1,16 +1,17 @@
-# IDS721-Project3
-# Introduction
-This is the individual project3 for the course IDS721. I used XGBoost/Random forest/PCA in AWS SageMaker to train the model based on startup Dataset and tested the trained model using SageMaker's Batch Transform functionality. I also compares the actual and predicted values in a table called a confusion matrix. Besides, I implemented S3 to store the data in the cloud.
+# IDS721-Project3: Prediction of the Performance of Company
 
-# Dataset Context
-A startup or start-up is a company or project begun by an entrepreneur to seek, develop, and validate a scalable economic model. While entrepreneurship refers to all new businesses, including self-employment and businesses that never intend to become registered, startups refer to new businesses that intend to grow large beyond the solo founder. Startups face high uncertainty and have high rates of failure, but a minority of them do go on to be successful and influential. Some startups become unicorns: privately held startup companies valued at over US$1 billion. [Source of information: Wikipedia]
-Startups play a major role in economic growth. They bring new ideas, spur innovation, create employment thereby moving the economy. There has been an exponential growth in startups over the past few years. Predicting the success of a startup allows investors to find companies that have the potential for rapid growth, thereby allowing them to be one step ahead of the competition.
 
-# Objective
-The objective is to predict whether a startup which is currently operating turns into a success or a failure. The success of a company is defined as the event that gives the company's founders a large sum of money through the process of M&A (Merger and Acquisition) or an IPO (Initial Public Offering). A company would be considered as failed if it had to be shut down.
+# Background Introduction
+I'm excited to share my project for the IDS721 course with you! For this project, I utilized several machine learning techniques, such as XGBoost, Random Forest, and PCA, to train my model using startup data. Then, I evaluated the model's performance using SageMaker's Batch Transform functionality. The objective of my project was to predict whether a startup would be successful or not based on whether it generated a large sum of money through M&A or IPO or if it had to be shut down. I also stored the data in the cloud using S3.
 
-# About the Data
+
+# Dataset 
+A startup or start-up is a company or project created to validate and develop a scalable economic model. While entrepreneurship encompasses all new businesses, including self-employment and those that never plan to register, startups specifically refer to new businesses that intend to grow beyond the solo founder. Although startups face high uncertainty and failure rates, a minority of them become successful and influential. Some startups even become unicorns, privately held companies valued at over US$1 billion. Startups play a significant role in economic growth by bringing new ideas, spurring innovation, and creating employment opportunities. In recent years, there has been an exponential increase in startups. Predicting the success of a startup enables investors to identify companies with the potential for rapid growth, placing them one step ahead of the competition.
+
+
+
 The data contains industry trends, investment insights and individual company information. There are 48 columns/features. Some of the features are:
+
 
 agefirstfunding_year – quantitative
 agelastfunding_year – quantitative
